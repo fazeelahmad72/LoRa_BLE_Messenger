@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="card_radius">20dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="section_gap">16dp</dimen>
+    <dimen name="status_dot">10dp</dimen>
+    <dimen name="avatar_size">40dp</dimen>
+    <dimen name="composer_min_height">48dp</dimen>
+</resources>

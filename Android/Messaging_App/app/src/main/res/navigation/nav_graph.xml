@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.messaging_app.ui.HomeFragment"
+        android:label="@string/home_title"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_devices"
+            app:destination="@id/DevicesFragment" />
+        <action
+            android:id="@+id/action_home_to_chat"
+            app:destination="@id/ChatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ChatListFragment"
+        android:name="com.example.messaging_app.ui.ChatListFragment"
+        android:label="@string/chat_list_title"
+        tools:layout="@layout/fragment_chat_list">
+        <action
+            android:id="@+id/action_chat_list_to_chat"
+            app:destination="@id/ChatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ChatFragment"
+        android:name="com.example.messaging_app.ui.ChatFragment"
+        android:label="@string/chat_title"
+        tools:layout="@layout/fragment_chat">
+        <action
+            android:id="@+id/action_chat_to_devices"
+            app:destination="@id/DevicesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/MapFragment"
+        android:name="com.example.messaging_app.ui.MapFragment"
+        android:label="@string/map_title"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/NodesFragment"
+        android:name="com.example.messaging_app.ui.NodesFragment"
+        android:label="@string/nodes_title"
+        tools:layout="@layout/fragment_nodes">
+        <action
+            android:id="@+id/action_nodes_to_detail"
+            app:destination="@id/NodeDetailFragment" />
+        <action
+            android:id="@+id/action_nodes_to_chat"
+            app:destination="@id/ChatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/NodeDetailFragment"
+        android:name="com.example.messaging_app.ui.NodeDetailFragment"
+        android:label="@string/node_detail_title"
+        tools:layout="@layout/fragment_node_detail">
+        <argument
+            android:name="nodeId"
+            app:argType="string" />
+        <argument
+            android:name="isLocal"
+            android:defaultValue="false"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_node_detail_to_chat"
+            app:destination="@id/ChatFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.example.messaging_app.ui.SettingsFragment"
+        android:label="@string/settings_title"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_settings_to_devices"
+            app:destination="@id/DevicesFragment" />
+        <action
+            android:id="@+id/action_settings_to_profile"
+            app:destination="@id/ProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DevicesFragment"
+        android:name="com.example.messaging_app.ui.DevicesFragment"
+        android:label="@string/devices_title"
+        tools:layout="@layout/fragment_devices" />
+
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.example.messaging_app.ui.ProfileFragment"
+        android:label="@string/profile_title"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

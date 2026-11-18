@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Messaging_App" parent="Base.Theme.Messaging_App">
+        <item name="android:navigationBarColor">@color/lora_surface</item>
+        <item name="android:statusBarColor">@color/lora_bg</item>
+    </style>
+</resources>

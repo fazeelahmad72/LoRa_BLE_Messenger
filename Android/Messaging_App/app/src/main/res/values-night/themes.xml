@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Inherits DayNight base; night colors come from values-night/colors.xml -->
+    <style name="Base.Theme.Messaging_App" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/lora_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/lora_accent_soft</item>
+        <item name="colorOnPrimaryContainer">@color/lora_ink</item>
+        <item name="colorSecondary">@color/lora_secondary</item>
+        <item name="colorOnSecondary">@color/lora_bg_deep</item>
+        <item name="colorTertiary">@color/lora_accent</item>
+        <item name="android:colorBackground">@color/lora_bg</item>
+        <item name="colorSurface">@color/lora_surface</item>
+        <item name="colorOnSurface">@color/lora_ink</item>
+        <item name="colorOnSurfaceVariant">@color/lora_muted</item>
+        <item name="colorOutline">@color/lora_divider</item>
+        <item name="android:statusBarColor">@color/lora_bg</item>
+        <item name="android:navigationBarColor">@color/lora_surface</item>
+        <item name="android:windowBackground">@color/lora_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="bottomNavigationStyle">@style/Widget.LoRa.BottomNavigation</item>
+    </style>
+</resources>

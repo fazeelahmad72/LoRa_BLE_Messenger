@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light palette (DayNight default / light mode) -->
+    <color name="lora_bg">#FFF4F7FB</color>
+    <color name="lora_bg_deep">#FFE8EEF6</color>
+    <color name="lora_surface">#FFFFFFFF</color>
+    <color name="lora_surface_elevated">#FFF8FAFC</color>
+    <color name="lora_ink">#FF0F172A</color>
+    <color name="lora_muted">#FF64748B</color>
+    <color name="lora_primary">#FF2979FF</color>
+    <color name="lora_primary_dark">#FF1E63D9</color>
+    <color name="lora_secondary">#FF0891B2</color>
+    <color name="lora_accent">#FF8B5CF6</color>
+    <color name="lora_accent_soft">#FFE8F0FF</color>
+    <color name="lora_success">#FF22C55E</color>
+    <color name="lora_warning">#FFF59E0B</color>
+    <color name="lora_danger">#FFEF4444</color>
+    <color name="lora_gold">#FF0891B2</color>
+    <color name="lora_bubble_out">#FF2979FF</color>
+    <color name="lora_bubble_out_end">#FF1E63D9</color>
+    <color name="lora_bubble_in">#FFEEF2F7</color>
+    <color name="lora_divider">#FFCBD5E1</color>
+    <color name="lora_status_ready">#FF22C55E</color>
+    <color name="lora_status_busy">#FFF59E0B</color>
+    <color name="lora_status_off">#FF94A3B8</color>
+    <color name="lora_header_start">#FFFFFFFF</color>
+    <color name="lora_header_end">#FFF8FAFC</color>
+    <color name="lora_scrim">#00000000</color>
+    <color name="lora_composer_fill">#FFEEF2F7</color>
+    <color name="lora_nav_inactive">#FF94A3B8</color>
+    <color name="lora_card_blue">#FFE8F0FF</color>
+    <color name="lora_card_cyan">#FFE0F7FA</color>
+    <color name="lora_card_violet">#FFF3E8FF</color>
+    <color name="lora_card_green">#FFE8F8EF</color>
+    <color name="lora_card_orange">#FFFFF4E5</color>
+</resources>

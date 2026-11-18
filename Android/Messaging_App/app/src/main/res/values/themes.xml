@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.Messaging_App" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/lora_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/lora_accent_soft</item>
+        <item name="colorOnPrimaryContainer">@color/lora_ink</item>
+        <item name="colorSecondary">@color/lora_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorTertiary">@color/lora_accent</item>
+        <item name="android:colorBackground">@color/lora_bg</item>
+        <item name="colorSurface">@color/lora_surface</item>
+        <item name="colorOnSurface">@color/lora_ink</item>
+        <item name="colorOnSurfaceVariant">@color/lora_muted</item>
+        <item name="colorOutline">@color/lora_divider</item>
+        <item name="android:statusBarColor">@color/lora_bg</item>
+        <item name="android:navigationBarColor">@color/lora_surface</item>
+        <item name="android:windowBackground">@color/lora_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="popupMenuBackground">@color/lora_surface_elevated</item>
+        <item name="bottomNavigationStyle">@style/Widget.LoRa.BottomNavigation</item>
+    </style>
+
+    <style name="Theme.Messaging_App" parent="Base.Theme.Messaging_App" />
+
+    <style name="TextAppearance.LoRa.Toolbar" parent="TextAppearance.Material3.ActionBar.Title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">@color/lora_ink</item>
+    </style>
+
+    <style name="TextAppearance.LoRa.SectionTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/lora_ink</item>
+    </style>
+
+    <style name="TextAppearance.LoRa.CardLabel" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/lora_muted</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="TextAppearance.LoRa.CardValue" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/lora_ink</item>
+    </style>
+
+    <style name="Widget.LoRa.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="itemRippleColor">@color/lora_accent_soft</item>
+        <item name="backgroundTint">@color/lora_surface</item>
+        <item name="elevation">0dp</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.LoRa.BottomNav.ActiveIndicator</item>
+    </style>
+
+    <style name="Widget.LoRa.BottomNav.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/lora_accent_soft</item>
+    </style>
+
+    <style name="Widget.LoRa.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/lora_surface</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/lora_divider</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="Widget.LoRa.Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/lora_primary</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+</resources>
